@@ -7,6 +7,11 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 import javax.persistence.EntityManagerFactory;
 
+/**
+ * 
+ * @author shwetaJ
+ *
+ */
 @Configuration
 @EnableTransactionManagement
 public class BeanConfig {
