@@ -1,0 +1,482 @@
+
+
+
+* {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: 0px; BORDER-RIGHT: 0px; PADDING-TOP: 0px;
+}
+BODY {
+	TEXT-ALIGN: left; 
+	FONT-FAMILY: "Zurich BT"; 
+	/* BACKGROUND: url(../images/bg.png); */
+	background:#AA272D; 
+	FONT-WEIGHT: 300; 
+	TEXT-DECORATION: none;
+	/* scrollbar-face-color : #F58322; 
+	scrollbar-highlight-color : #F58322; 
+	scrollbar-3dlight-color : #F58322;
+	scrollbar-darkshadow-color : #F58322;  
+	scrollbar-arrow-color : #000000;   
+	scrollbar-shadow-color : #535353;   
+	scrollbar-track-color: #ACACAC;  */
+	
+}
+#top {
+	
+	background:url(../images/topBackground.jpg) repeat-x top #AA272D;
+	
+}
+
+
+#wrapper {
+	 WIDTH: 98%; 
+	  HEIGHT:600px;  
+	 TOP: 50%; 
+	 LEFT: 50%;
+	 background: #EAE9CA; 
+	 border-radius: 2px 2px 2px 2px; 
+	border: 5px solid #FFFFFF;
+	MARGIN: 0px auto; 
+	border-radius: 2px; 
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5); 
+	-moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5); 
+	-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);	
+	overflow-y:auto;
+	overflow-x:hidden;
+	text-align: center;
+}
+.download {
+	POSITION: absolute; TEXT-ALIGN: right; PADDING-BOTTOM: 5px; PADDING-LEFT: 5px; BOTTOM: 25px; PADDING-RIGHT: 5px; DISPLAY: block; FLOAT: right; FONT-SIZE: 11px; RIGHT: 25px; FONT-WEIGHT: bold; TEXT-DECORATION: none; PADDING-TOP: 5px; text-shadow: 1px 1px 0 rgba(256, 256, 256, 0.5);
+}
+.download:hover {
+	text-shadow: 1px 1px 0 rgba(256, 256, 256, 0.5);
+}
+.download:focus {
+	BOTTOM: 24px;
+}
+.gradient {
+	BACKGROUND-IMAGE: url(../images/gradient.png); POSITION: fixed; MARGIN-TOP: -300px; WIDTH: 600px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 600px; MARGIN-LEFT: -300px; TOP: 50%; LEFT: 50%;
+}
+.login-form {
+	
+	BORDER-BOTTOM: #fff 1px solid; 
+	POSITION: relative; 
+	BORDER-LEFT: #fff 1px solid; 
+	border-radius: 2px 2px 2px 2px; 
+	MARGIN: 0px auto; 
+	WIDTH: 100%; 
+	height:100%;
+	BACKGROUND: #EAE9CA; 
+	BORDER-TOP: #fff 1px solid; 
+	BORDER-RIGHT: #fff 1px solid; 
+	border-radius: 2px; 
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5); 
+	-moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5); 
+	-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+.login-form .header {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 30px; PADDING-RIGHT: 30px; PADDING-TOP: 10px;
+}
+.login-form .header H1 {
+	LINE-HEIGHT: 34px; FONT-FAMILY: "Zurich BT"; MARGIN-BOTTOM: 10px; COLOR: #414848; FONT-SIZE: 28px; FONT-WEIGHT: 300; text-shadow: 1px 1px 0 rgba(256, 256, 256, 1.0);
+}
+SPAN {
+	LINE-HEIGHT: 16px; FONT-SIZE: 11px; text-shadow: 1px 1px 0 rgba(256, 256, 256, 1.0);font-size: 14px;
+}
+.login-form .content {
+	PADDING-BOTTOM: 25px; PADDING-LEFT: 30px; PADDING-RIGHT: 30px; PADDING-TOP: 0px;
+}
+.input {
+	BORDER-BOTTOM: #fff 1px solid; 
+	BORDER-LEFT: #fff 1px solid;	
+	WIDTH: 188px;
+	 PADDING-RIGHT: 25px;
+	  FONT-FAMILY: "Zurich BT"; 
+	  BACKGROUND: #fff;
+	   COLOR: #9d9e9e; 
+	   FONT-SIZE: 16px;
+	    BORDER-TOP: #fff 1px solid;
+	     FONT-WEIGHT: 400;
+	      BORDER-RIGHT: #fff 1px solid;
+	       height:25px;
+	       text-shadow: 1px 1px 0 rgba(256, 256, 256, 1.0);
+	        border-radius: 5px; 
+	        box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.50);
+	         -moz-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.50);
+	          -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.50);
+	          border-color: black;
+	          vertical-align: middle;
+}
+
+.login-form .content .pass-icon {
+	MARGIN-TOP: 25px;
+}
+.login-form .content .input:hover {
+	BACKGROUND: #dfe9ec; COLOR: #414848;
+}
+.login-form .content .input:focus {
+	BACKGROUND: #dfe9ec; COLOR: #414848; box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25); -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25); -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25);
+}
+.user-icon {
+	Z-INDEX: 3; POSITION: absolute; WIDTH: 46px; PADDING-RIGHT: 2px; DISPLAY: block; HEIGHT: 47px; LEFT: 0px; -moz-border-radius-topleft: 5px; -moz-border-radius-bottomleft: 5px; -webkit-border-top-left-radius: 5px; -webkit-border-bottom-left-radius: 5px;
+}
+.pass-icon {
+	Z-INDEX: 3; POSITION: absolute; WIDTH: 46px; PADDING-RIGHT: 2px; DISPLAY: block; HEIGHT: 47px; LEFT: 0px; -moz-border-radius-topleft: 5px; -moz-border-radius-bottomleft: 5px; -webkit-border-top-left-radius: 5px; -webkit-border-bottom-left-radius: 5px;
+}
+.user-icon {
+	TOP: 147px
+}
+.login-form .content .password {
+	MARGIN-TOP: 25px
+}
+
+.login-form .content .captcha {
+	MARGIN-TOP: 25px
+}
+.pass-icon {
+	TOP: 221px
+}
+.input {
+	transition: all 0.5s; -moz-transition: all 0.5s; -webkit-transition: all 0.5s; -o-transition: all 0.5s; -ms-transition: all 0.5s
+}
+.user-icon {
+	transition: all 0.5s; -moz-transition: all 0.5s; -webkit-transition: all 0.5s; -o-transition: all 0.5s; -ms-transition: all 0.5s
+}
+.pass-icon {
+	transition: all 0.5s; -moz-transition: all 0.5s; -webkit-transition: all 0.5s; -o-transition: all 0.5s; -ms-transition: all 0.5s
+}
+.button {
+	transition: all 0.5s; -moz-transition: all 0.5s; -webkit-transition: all 0.5s; -o-transition: all 0.5s; -ms-transition: all 0.5s
+}
+.register {
+	transition: all 0.5s; -moz-transition: all 0.5s; -webkit-transition: all 0.5s; -o-transition: all 0.5s; -ms-transition: all 0.5s
+}
+.login-form .footer {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 30px; PADDING-RIGHT: 30px; BACKGROUND: #d4dedf; OVERFLOW: auto; BORDER-TOP: #fff 1px solid; PADDING-TOP: 10px; box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.15); -moz-box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.15); -webkit-box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.15)
+}
+.button_admin {
+	/* 2CA9CD   37B7D5 178FBE*/
+	BORDER-BOTTOM: #46b3d3 1px solid; 
+	BORDER-LEFT: #46b3d3 1px solid; 
+	PADDING-BOTTOM: 7px; 
+	PADDING-LEFT: 10px; 
+	PADDING-RIGHT: 10px; 
+	FONT-FAMILY: Zurich BT;
+	 BACKGROUND: #08384b;	  
+	  COLOR: #fff; 
+	  FONT-SIZE: 14px; 
+	  BORDER-TOP: #46b3d3 1px solid; 
+	  CURSOR: pointer; 
+	  FONT-WEIGHT: 300; 
+	  BORDER-RIGHT: #46b3d3 1px solid;
+	   PADDING-TOP: 7px; 
+	   text-shadow: 0px 1px 0 rgba(0, 0, 0, 0.25);
+	    border-radius: 5px;
+	     box-shadow: inset 0 0 2px rgba(256, 256, 256, 0.75);
+	      -moz-box-shadow: inset 0 0 2px rgba(256, 256, 256, 0.75); 
+	      -webkit-box-shadow: inset 0 0 2px rgba(256, 256, 256, 0.75);
+	      text-shadow: 0px 2px 3px #666;
+	      
+}
+.login-form .footer .button:hover {
+	BACKGROUND: #3f9db8; box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5); -moz-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5); -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5)
+}
+.login-form .footer .button:focus {
+	POSITION: relative; BOTTOM: -1px; BACKGROUND: #56c2e1; box-shadow: inset 0 1px 6px rgba(256, 256, 256, 0.75); -moz-box-shadow: inset 0 1px 6px rgba(256, 256, 256, 0.75); -webkit-box-shadow: inset 0 1px 6px rgba(256, 256, 256, 0.75)
+}
+.login-form .footer .register {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; PADDING-BOTTOM: 10px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; DISPLAY: block; FONT-FAMILY: "Zurich BT"; BACKGROUND: none transparent scroll repeat 0% 0%; FLOAT: right; COLOR: #414848; FONT-SIZE: 18px; BORDER-TOP: medium none; CURSOR: pointer; FONT-WEIGHT: 300; MARGIN-RIGHT: 20px; BORDER-RIGHT: medium none; PADDING-TOP: 10px; text-shadow: 0px 1px 0 rgba(256, 256, 256, 0.5)
+}
+.login-form .footer .register:hover {
+	COLOR: #3f9db8
+}
+.login-form .footer .register:focus {
+	POSITION: relative; BOTTOM: -1px
+}
+
+.leads_content{
+	vertical-align:top;
+	align: center;
+	width:100%;	
+	height: 500px;
+	border:0px solid #000000;
+}
+
+.lead_details{
+	width:100%;
+	height:100%;
+	background: #37B7D5; /* for non-css3 browsers */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#178FBE', endColorstr='#37B7D5'); /* for IE */
+	background: -webkit-gradient(linear, left top, left bottom, from(#178FBE), to(#37B7D5)); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  #178FBE,  #37B7D5); /* for firefox 3.6+ */
+	border:0px solid #000000;
+	overflow-y:auto;
+	overflow-x:hidden;	
+}
+
+#tableID
+{
+	border-radius: 2px 2px 2px 2px; 
+	border: 5px solid #FFFFFF;
+	MARGIN: 0px auto; 
+	width:99%;
+	height:500px; 
+	background: #EAE9CA; /* for non-css3 browsers */
+	border-radius: 2px; 
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5); 
+	-moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5); 
+	-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);	
+	overflow-y:auto;
+	overflow-x:hidden;
+}
+
+.table_header
+{
+	height:30px;	
+	background: #08384b;
+	color: #FFFFFF;
+	font-family: Zurich BT;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.table_details
+{
+	height:30px;
+	background: #527481;
+	color: #FFFFFF;
+	font-family: Zurich BT;
+	font-size: 12px;
+	font-weight: normal; 
+	 
+}
+
+.table_label_log_exception
+{
+	color: #000000;
+	font-family: Zurich BT;
+	font-weight: bold;
+	
+}
+
+.table_value_log_exception
+{
+	color: #000000;
+	font-family: Zurich BT;
+	font-size: 12px;
+	font-weight: normal; 
+	 
+}
+
+.table_header_exception_details
+{
+	height:20px;
+	background: #F58322;
+	color: #FFFFFF;
+	font-family: Zurich BT;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.table_label_exception_details
+{
+	 height:20px;
+	 background: #FFFFCC;
+	color: #000000;
+	font-family: Zurich BT;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.table_value_exception_details
+{
+	height:20px;
+	background: #FFFFCC;
+	color: #000000;
+	font-family: Zurich BT;
+	font-size: 12px;
+	font-weight: normal; 
+}
+
+.summary_text
+{
+	
+	font-size: 24px;
+	font-family:Zurich BT;
+	font-weight: bold;
+	color: #333333;
+}
+
+.summary_text_1
+{
+	font-size: 14px;
+	font-family:Zurich BT;
+	font-weight: normal;
+	color: #535353;
+}
+
+#astric{
+color: red;	
+}
+
+#errorMessage{
+color: red;
+font-size: 8px;
+}
+
+.table_label_exception_approval_details
+{
+	 height:20px;
+	 background: #73ADD5;
+	color: #FFFFFF;
+	font-family: Zurich BT;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.popupRow
+{
+	background: #5098CA;
+	color: #000000;
+	height: 25px;
+	
+}
+.table_value_log_exception1
+{
+	border: 2px solid;
+	background: #08384b;
+	color: #FFFFFF;
+	font-family: Zurich BT;
+	font-size: 12px;
+	font-weight: normal; 	 
+}
+
+.line{
+	 height:0.6cm;
+	 background: #045A97;  
+	 filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#3783B9', endColorstr='#045A97'); /* for IE */
+	 background: -webkit-gradient(linear, left top, left bottom, from(#3783B9), to(#045A97)); /* for webkit browsers */
+	 background: -moz-linear-gradient(top,  #3783B9,  #045A97); /* for firefox 3.6+ */	
+	 text-decoration: none;
+	 font-weight: bold;
+	 
+}
+
+#line2{
+	 height:0.6cm;
+	 background: #045A97;  
+	 filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#3783B9', endColorstr='#045A97'); /* for IE */
+	 background: -webkit-gradient(linear, left top, left bottom, from(#3783B9), to(#045A97)); /* for webkit browsers */
+	 background: -moz-linear-gradient(top,  #3783B9,  #045A97); /* for firefox 3.6+ */	
+	 font-weight: bold;
+}
+
+.line1{
+	 height:0.6cm;
+	 background: #0564A8;  
+	 filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#5092C2', endColorstr='#0564A8'); /* for IE */
+	 background: -webkit-gradient(linear, left top, left bottom, from(#5092C2), to(#0564A8)); /* for webkit browsers */
+	 background: -moz-linear-gradient(top,  #5092C2,  #0564A8); /* for firefox 3.6+ */	
+	 text-decoration: underline;
+	 color: #FFFFFF;
+	 font-weight: bold;
+}
+
+a{
+text-decoration: none;
+color: #FFFFFF;
+}
+
+#selfApprovel{
+	BACKGROUND: url(../images/self.png);
+	
+	height: 103px;
+	width: 171px;
+}
+
+#ApprovelOther{
+	BACKGROUND: #F4F3D5;
+	height: 93px;
+	width: 171px;
+	text-align:center;
+	vertical-align: bottom; 
+	color:#C7410C;
+	border-radius: 2px 2px 2px 2px; 
+	border: 5px solid #FFFFFF;
+	MARGIN: 0px auto; 
+	border-radius: 2px; 
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5); 
+	-moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5); 
+	-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);	
+	font-size: 16px;
+	font-family: "Zurich BT";
+	vertical-align: middle;
+}
+
+#ApprovelOther a{
+text-decoration:underline;		
+color: #C7410C;
+}
+
+#count{
+font-size: 30px;
+color:#C7410C;
+padding-top: 20px;
+}
+
+#userInfo{
+	margin-right: 15px;
+	color: #AA272D;
+	font-size: 11px;
+	font-weight: bold;
+	float: right;
+	width: 600px;
+	height: 65px;
+	text-align: right;
+	
+}
+
+input {
+	border-color: gray;
+	border-style: solid;
+	border-width: 1px;
+}
+
+.footer .button {
+	
+	 
+	FONT-FAMILY: "Zurich BT";
+	BACKGROUND: #C7410C;
+	COLOR: #fff;
+	FONT-SIZE: 14px; 
+	CURSOR: pointer; 
+	FONT-WEIGHT:bold;
+	width: 60px;	
+	 
+}
+
+ .black_overlay{
+        display: none;
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        width: 100%;
+        height: 100%;
+        background-color: black;
+        z-index:1001;
+        -moz-opacity: 0.8;
+        opacity:.80;
+        filter: alpha(opacity=80);
+    }
+    .white_content {
+        display: none;
+        position: absolute;
+        top: 25%;
+        left: 25%;
+        width: 50%;
+        height: 50%;
+        padding: 16px;
+        border: 16px solid orange;
+        background-color: white;
+        z-index:1002;
+        overflow: auto;
+    }

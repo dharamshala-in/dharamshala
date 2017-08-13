@@ -1,0 +1,41 @@
+<html>
+<head><b>Welcome to Dharamshala.in!</b></head>
+<body>
+<p>Dear Customer,</p>
+
+<p>Congratulations! Thank you for using Dharamshala.in room reservation facility.</p>
+<p>Your room has been booked and the details are indicated below.</p>
+<table align="left" width="100%"><thead>Booking Details</thead>
+	<tr>
+		<td style="color: #FFFFFF;font-weight: bold;" bgcolor="#F58322">Booking ID</td><td>${bookingId}</td>
+		<td style="color: #FFFFFF;font-weight: bold;" bgcolor="#F58322">Dharamshala Name</td><td>${dharamshalaName}</td>
+	</tr>
+	<tr>
+		<td style="color: #FFFFFF;font-weight: bold;" bgcolor="#F58322">Dharamshala City</td><td>${city}</td>
+		<td style="color: #FFFFFF;font-weight: bold;" bgcolor="#F58322">Date of Booking</td><td>${dateOfBooking?string['dd.MM.yyyy']}</td>
+	</tr>
+	<tr>
+		<td style="color: #FFFFFF;font-weight: bold;" bgcolor="#F58322">Check In Date</td><td>${checkIn?string['dd.MM.yyyy']}</td>
+		<td style="color: #FFFFFF;font-weight: bold;" bgcolor="#F58322">Check In Date</td><td>${checkOut?string['dd.MM.yyyy']}</td>
+		
+	</tr>
+	<tr>
+		<td style="color: #FFFFFF;font-weight: bold;" bgcolor="#F58322">Room Type</td><td>${roomType}</td>
+		<td style="color: #FFFFFF;font-weight: bold;" bgcolor="#F58322">Room Number</td><td>${roomNumber}</td>
+		
+	</tr>
+	<tr>
+		<td style="color: #FFFFFF;font-weight: bold;" bgcolor="#F58322">Number Of Adults</td><td>${noOfAdults}</td>
+		<td style="color: #FFFFFF;font-weight: bold;" bgcolor="#F58322">Number Of Childs</td><td>${noOfChilds}</td>
+		
+	</tr>
+	<tr>
+		<td style="color: #FFFFFF;font-weight: bold;" bgcolor="#F58322">Price</td><td>${price}</td>
+		
+	</tr>
+</table>
+<br>
+<p>Team</p>
+<p>Dharamshala.in</p>
+</body>
+</html>
